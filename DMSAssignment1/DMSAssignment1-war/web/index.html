@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Login Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        
+        <form action="LoginServlet" method="post">
+        <center>
+            <table>
+                <tr>
+                    <h3>Welcome to Book Management System</h3>                    
+                    Please login if you have an account. Register if you don't.
+                                        
+                </tr>
+                <tr>
+                    <td  width="92" align="center">Username:</td>
+                    <td width="232"><input type="text" name="username"></td>
+                </tr>
+                <tr>
+                    <td align="center">Password:</td>
+                <td><input type="password" name="password"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                    <input name="loginButton" type="submit" value="Login"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                    <input name="registerButton" type="submit" value="Register"></td>
+                </tr>
+            </table>
+        </center>
+        </form>
+
+    </body>
+</html>
